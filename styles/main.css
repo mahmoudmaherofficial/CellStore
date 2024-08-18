@@ -532,9 +532,11 @@ section#about abbr .text p span {
 section#contact {
   background-color: #eee;
 }
+
 section#contact form div {
   position: relative;
 }
+
 section#contact form div input[type="text"] {
   width: 600px;
   height: 50px;
@@ -545,9 +547,11 @@ section#contact form div input[type="text"] {
   padding: 0 20px;
   font-size: 22px;
 }
+
 section#contact form div input[type="text"]:focus {
   outline: none;
 }
+
 section#contact form div input[type="submit"] {
   position: absolute;
   right: 0;
@@ -560,21 +564,26 @@ section#contact form div input[type="submit"] {
   font-weight: bold;
   font-size: 20px;
 }
+
 section#contact form p {
   margin-left: 30px;
   color: var(--red-color);
 }
+
 @media (max-width: 767px) {
   section#contact form {
     flex-direction: column;
   }
+
   section#contact form div input[type="text"] {
     width: 100%;
   }
+
   section#contact form p {
     margin: 0;
   }
 }
+
 /* ################# End Contact ################# */
 /* ################# Start Footer ################# */
 footer {
@@ -584,4 +593,5 @@ footer {
   text-align: center;
   font-size: 32px;
 }
+
 /* ################# End Footer ################# */
