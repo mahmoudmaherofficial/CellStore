@@ -95,7 +95,7 @@ header {
   border-radius: 0 0 70px 70px;
   height: 87px;
   z-index: 1000;
-  position: relative;
+  position: fixed;
   display: flex;
   transition: border-radius 0.3s;
 }
